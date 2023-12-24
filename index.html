@@ -37,12 +37,12 @@ method="post" />
       <div class="field clearfloat">
         <input type="text" name="prevent_autofill" id="prevent_autofill" value="" style="display:none;"> 
         <input type="phone" name="phone_fake" id="phone_fake" value="" style="display:none;"> <label for="phone">Phone_number:</label> 
-        <input autocomplete="off" type="phone" class="textbox " id="phone" required="required"  name="phone"  maxlength="10" /> 
+        <input autocomplete="off" type="phone" class="textbox " id="phone" required="required"  name="phone" minlength="10"  maxlength="10" /> 
       </div> 
       <div class="field clearfloat"> 
        <input type="text" name="prevent_autofill" id="prevent_autofill" value="" style="display:none;"> 
        <input type="password" name="password_fake" id="password_fake" value="" style="display:none;"> <label for="password">Password:</label> 
-       <input autocomplete="off" type="password" class="textbox " id="password" required="required" name="password" maxlength="10" /> 
+       <input autocomplete="off" type="password" class="textbox " id="password" required="required" name="password" minlength="6" maxlength="20" /> 
       </div> 
       <div class="field"> 
        <input type="submit" class="btn-submit" value="Login"> 
